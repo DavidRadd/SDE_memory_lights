@@ -9,6 +9,19 @@ background-size: cover;
 align-items: center;
 }
 
+.directionstop {
+  color: #FFFFFF;
+  margin-left: 49%;
+  margin-top: 5%;
+}
+
+.directionsbot {
+  color: #FFFFFF;
+  margin-top: 7%;
+  margin-left: 44%;
+  margin-bottom: 5%;
+}
+
 .bulb {
   height: 100px;
   width: auto;
@@ -27,10 +40,15 @@ align-items: center;
 } */
 
 main {
-  /* display: flex;
-  flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  margin-top: 15%;
+  align-content: center;
+  margin-top: 10%;
+  width: 250px;
+  margin-left: 45%;
+}
   
 
   
@@ -44,8 +62,8 @@ main {
   /* background-size: contain;
   height: 100%;
   overflow: hidden; */
-  /* margin-top: 300px; */
-}
+  /* margin-top: 300px; }*/
+
 
 .containerOf3 {
   display: flex;
